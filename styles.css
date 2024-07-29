@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorMain {
+  background: #d3d3d3;
+}
+
+.contenedorForm {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 21px -7px rgba(0, 0, 0, 0.58);
+  padding: 40px 40px;
+}
+
+h1 {
+  color: #a4a4a4;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+input,
+select {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.entradaForm {
+  width: 100%;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: #f3f3f3;
+  border: 1px solid #e8e8e8;
+}
+
+.etiquetaForm {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 24px;
+  max-width: 640px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #5d5fef;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+button:nth-child(odd) {
+  background-color: white;
+  border: #5d5fef solid 1px;
+  color: #000;
+}
+
+button:hover {
+  background-color: #004c9d;
+}
